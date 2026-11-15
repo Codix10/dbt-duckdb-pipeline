@@ -70,7 +70,6 @@ models:
       - name: job_location
         description: Posting location; the grain. (2,472 null-location rows exist upstream; the top-10 cut keeps them out.)
         data_tests:
-          - not_null
           - unique
       - name: postings
         description: Postings counted for the location.

@@ -13,3 +13,5 @@ data/
 *.duckdb
 logs/
 
+#dbt generaed files
+.user.yml
